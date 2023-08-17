@@ -20,7 +20,7 @@ export default function Header() {
                     to="host"
                     style={({isActive}) => isActive ? activeStyles : null}
                 >
-                    Host
+                    Owner
                 </NavLink>
                 <NavLink 
                     to="about"
